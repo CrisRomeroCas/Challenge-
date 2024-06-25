@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/Logo.png" alt="logo">
+    </header>
+    <main class="informacion">
+        <section class="informacion__contenido">
+            <textarea id="textoOriginal" class="insertar__texto" placeholder="Ingrese el texto aqui" autofocus></textarea> 
+            <div class="rectangulo" id="rectangulo">
+               <img class="imagen_rectangulo" src="./assets/Muñeco.png" alt="Muneco presentacion" id="quitar">
+               <p class="parrafoUno" id="parrafoUno">Ningún mensaje fue encontrado</p>
+               <p class="parrafoDos" id="parrafoDos">Ingresa el texto que desees encriptar o desencriptar.</p>
+               <div id="Texto__oculto" style="display:none;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci montes,
+                    sit et diam risus scelerisque vitae est. Tortor maecenas nunc ut laoreet.
+                    Eget diam mauris quam quisque ut eget fringilla sit elit. Libero,
+                    sodales duis fames id diam feugiat aliquet non egestas.</p>
+               </div>               
+            </div>
+            <p>
+            <div class="botones">
+                <button onclick="encriptarTexto()" class="boton__encriptar">Encriptar </button>
+                <button onclick="desencriptarTexto()" class="boton__desencriptar" id="desencriptar" disabled>Desencriptar </button>                
+                <button id="botonCopiar" onclick="copiarTexto()" style="display: none;" class="boton__copiar">Copiar</button>
+            </div>
+            </p>
+        </section>    
+    </main>
+    <footer class="footer">
+        <p>Desarrollado por Cristian Romero</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
