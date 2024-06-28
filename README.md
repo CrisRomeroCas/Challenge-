@@ -8,6 +8,6 @@ Encriptador de texto funcionado al 50 % encripta y desencripta de manera correct
 agradezco sus opiniones y verificaciones del codigo 
 
 
---Actualizcion--
+--Actualizacion--
 
 Cambios en el js para hacerlo mas funcional.
